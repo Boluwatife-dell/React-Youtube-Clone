@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <header className="header">
-        <div>{/* <img src={randomPic} width="30" height="30" /> */}</div>
+        <div></div>
 
         <div className="search-container">
           <div className="search-wrapper">

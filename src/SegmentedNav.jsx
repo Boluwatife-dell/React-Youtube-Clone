@@ -10,7 +10,7 @@ function SegmentedNav() {
         <button className="segmented-nav-btn">Bnagla Lofi</button>
         <button className="segmented-nav-btn">Tour</button>
         <button className="segmented-nav-btn">Saintmartin</button>
-        <button class="segmented-nav-btn">Tech</button>
+        <button className="segmented-nav-btn">Tech</button>
         <button className="segmented-nav-btn">Iphone 13</button>
         <button className="segmented-nav-btn">User Interface Design</button>
         <button className="segmented-nav-btn">Computer</button>

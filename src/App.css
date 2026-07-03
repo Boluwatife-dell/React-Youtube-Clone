@@ -1,0 +1,9 @@
+.full-page {
+  display: flex;
+  height: 100vh;
+  gap: 18px;
+}
+
+.main-content {
+  flex: 1;
+}
