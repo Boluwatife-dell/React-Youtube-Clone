@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  letter-spacing: 0.2px;
+  /* min-height: 100vh; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #0f0f0f;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  background-color: #121212;
+  color: white;
+  width: 400px;
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid #555;
+  outline: none;
+  font-size: 15px;
+}
+
+.mic-icon {
+  width: 34px;
+  height: 34px;
+  color: #fff;
+}
+
+ion-icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-btn {
+  height: 40px;
+  width: 64px;
+  background: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  border: none;
+}
+
+.search-btn {
+  background-color: #333;
+}
+
+.search-btn:hover {
+  background: #444;
+}
+
+.search-btn ion-icon {
+  color: #fff;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-icons span {
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.header-icons span:hover {
+  background: #333;
+}
+
+.header-icons span:nth-child(4) {
+  background: transparent;
+}
+
+.header-img {
+  border-radius: 50px;
+  max-width: 24px;
+  max-height: 24px;
+}
