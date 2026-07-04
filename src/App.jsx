@@ -1,6 +1,7 @@
 import Header from "./Header";
 import SegmentedNav from "./SegmentedNav";
 import Aside from "./Aside";
+import VideoGrid from "./VideoGrid";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div className="main-content">
           <Header />
           <SegmentedNav />
+          <VideoGrid />
         </div>
       </div>
     </>
