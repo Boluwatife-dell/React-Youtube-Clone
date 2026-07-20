@@ -1,11 +1,32 @@
-import youTubePic from "./assets/Youtube_Logo (1).webp";
+import youTubePic from "./assets/Youtube-logo.png";
+import React, { useEffect, useState } from "react";
 
 function Aside() {
-  function menuToggle() {}
+  const [isOpen, setIsOpen] = useState(window.innerWidth > 992);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsOpen(window.innerWidth > 992);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  function menuToggle() {
+    if (window.innerWidth <= 992 && window.innerWidth <= 768) {
+      return;
+    }
+
+    setIsOpen((prev) => !prev);
+  }
 
   return (
     <>
-      <div className="aside-nav">
+      <div className={`aside-nav ${isOpen ? "expanded" : "collapsed"}`}>
         <div className="aside">
           <ion-icon
             onClick={menuToggle}

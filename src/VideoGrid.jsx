@@ -19,7 +19,7 @@ function VideoGrid() {
 
         const users = await response.json();
         setUsers(users);
-        console.log(users);
+        // console.log(users);
       } catch (error) {
         console.error("Fetch failed:", error.message);
       }

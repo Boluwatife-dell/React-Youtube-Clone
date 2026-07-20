@@ -15,7 +15,7 @@ function VideoCard({ user }) {
         <div className="video-info">
           <h2 className="video-title">{user.name}</h2>
           <p className="video-channel">Channel {user.company.name} ✔</p>
-          <p class="video-stats">${user.website}</p>
+          <p className="video-stats">${user.website}</p>
         </div>
       </div>
     </div>
